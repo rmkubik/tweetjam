@@ -147,5 +147,5 @@ const extractRamInitializerBytes = bytes => bytes.slice(0, 0x4300);
 
 extractRamInitializerBytes(cartdat.data);
 
-// encodeCartData('./tweetjam_out.p8', './cartdata2.csv');
-// decodeCartDataCsv('./cartdata2.csv', './tweetjam_out2.p8');
+// encodeCartData('./build/tweetjam_out.p8', './build/cartdata2.csv');
+// decodeCartDataCsv('./build/cartdata2.csv', './build/tweetjam_out2.p8');
